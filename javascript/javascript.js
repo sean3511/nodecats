@@ -47,7 +47,7 @@
                                   clearInterval(fadeEffect);
                                   popupText.style.display = 'none';
                               }
-                          }, 100);
+                          }, 10);
                       }, 1500); // 在1.5秒後開始淡出
                   }
               }).catch(function(error) {
