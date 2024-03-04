@@ -5,7 +5,7 @@
     });
 
     // 複製功能
-    $(document).ready(function() {
+
       $('.copybtn').click(function() {
           // 使用原生 JavaScript 或 jQuery 來選擇並複製文字
           var textToCopy = document.getElementById('textToCopy').innerText;
@@ -20,5 +20,5 @@
               console.error('Copy failed', error);
           });
       });
-  });
+ 
   
