@@ -37,7 +37,7 @@ p{
     padding: 8px 16px;
     border-radius: 433px;
     color: #FFF !important;
-    background-color: #000022;
+    background-color: rgb(255, 199, 0, ) !important;;
     z-index: 100000000;
 }
 .wrapper{
