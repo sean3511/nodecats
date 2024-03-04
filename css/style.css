@@ -92,7 +92,6 @@ canvas {
 	vertical-align: bottom;
 }
 .Numblock{
-    width: 100%;
     margin-top: 24px;
     padding: 16px;
     display: flex;
@@ -213,3 +212,24 @@ canvas {
 .count-particles {
 	border-radius: 0 0 3px 3px;
 }
+@media (max-width: 1024px) {
+    p{
+        font-size: 14px !important;
+    }
+    .Numblock{
+        margin: 16px !important;
+    }
+    .section_block{
+        padding: 16px;
+    }
+    .Numgroup {
+        max-width: 100%;
+    }
+    #textToCopy{
+        font-size: 12px !important;
+        display: inline;
+        overflow-wrap: break-word;
+        word-wrap: break-word; /* 旧浏览器的兼容性 */
+        word-break: break-all; /* 对于非英文文本也强制分词换行 */
+    }
+  }
