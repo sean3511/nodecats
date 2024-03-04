@@ -38,7 +38,7 @@ p{
     pointer-events: none;
 }
 .popup_text{
-    /* display: none; */
+    display: none;
     padding: 8px 16px;
     border-radius: 433px;
     color: #FFF !important;
