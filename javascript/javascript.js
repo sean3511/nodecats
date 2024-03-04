@@ -11,7 +11,7 @@
           var textToCopy = document.getElementById('textToCopy').innerText;
           navigator.clipboard.writeText(textToCopy).then(function() {
             // 複製成功後，使用 jQuery 來顯示 popup_text
-            $('.popup_text').fadeIn().delay(500).fadeOut();
+            $('.popup_text').fadeIn().delay(1500).fadeOut();
           }).catch(function(error) {
             console.error('複製失敗', error);
           });
