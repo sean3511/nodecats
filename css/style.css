@@ -124,7 +124,7 @@ canvas {
     color: #FFF !important;
 }
 .cursor{
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 .numtitle{
     text-align: center;
