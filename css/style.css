@@ -27,18 +27,23 @@ p{
     /* background-color: #000 !important;
     background: #000 !important; */
 }
-
+.alert_overlay{
+    position: fixed;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000000000000;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+}
 .popup_text{
     display: none;
-    position: fixed;
-    top:50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     padding: 8px 16px;
     border-radius: 433px;
     color: #FFF !important;
-    background-color: rgb(255, 199, 0, ) !important;;
-    z-index: 100000000;
+    background-color: rgb(255, 199, 0) !important;;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.60);
 }
 .wrapper{
     max-width: 1400px;
